@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/background_toolbar"
+    android:gravity="center_vertical">
+    <ImageView
+        android:id="@+id/iconback"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="Clickback"
+        android:src="@drawable/back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/titres_transport"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/logout"
+        android:onClick="ClickMenu"
+        android:layout_marginRight="10dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"/>
+
+</LinearLayout>

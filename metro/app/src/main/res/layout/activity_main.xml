@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar_main" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/service"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:gravity="left|center"
+            android:text="Service"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:fontFamily="@font/lato_bold"
+            android:drawableRight="@drawable/down" />
+
+        <ImageView
+            android:id="@+id/point1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@+id/service"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/point" />
+
+
+        <Button
+            android:id="@+id/metro"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/point1"
+            android:text="   Métro"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/tram"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/metro"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Tramway"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/telepherique"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tram"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Téléphérique"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/point3"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@+id/telepherique"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/point" />
+
+
+
+        <Button
+            android:id="@+id/wilaya"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/point3"
+            android:fontFamily="@font/lato_bold"
+            android:background="@android:color/transparent"
+            android:gravity="left|center"
+            android:text="Wilaya"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/down" />
+
+        <ImageView
+            android:id="@+id/point2"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/wilaya"
+            app:srcCompat="@drawable/point"  />
+
+        <Button
+            android:id="@+id/alger"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/point2"
+            android:layout_marginLeft="10dp"
+            android:text="   Alger"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/constantine"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/alger"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Constantine"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/oran"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/constantine"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Oran"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/sidi"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/oran"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Sidi Bel Abbès"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/ouargla"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sidi"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Ouargla"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/setif"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ouargla"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:text="   Setif"
+            android:gravity="left|center"
+            android:textColor="@color/gris"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/point4"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/setif"
+            app:srcCompat="@drawable/point"  />
+
+
+
+
+        <ImageButton
+            android:id="@+id/button_continuer"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button"
+            />
+
+
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

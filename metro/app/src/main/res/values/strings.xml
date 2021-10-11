@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OTRAM</string>
+
+    <string name="titres_transport">Titres de transport</string>
+    <string name="titre_classic">CLASSIC</string>
+    <string name="titre_classic_text">Valable 30 jours</string>
+
+    <string name="titre_etudiant">ETUDIANT</string>
+    <string name="titre_etudiant_text">-25 ans</string>
+
+    <string name="titre_senior">SENIOR</string>
+    <string name="titre_senior_text">60 ans et +</string>
+
+    <string name="titre_annuel_classic">ANNUEL CLASSIC</string>
+    <string name="titre_annuel_text">valable 1 an</string>
+
+    <string name="titre_annuel_etudiant">ANNUEL ETUDIANT</string>
+    <string name="titre_annuel_etudiant_text">valable 1 an</string>
+
+
+    <string name="text_authantification">Afin de valider votre inscription, nous avons besoin de vérifier votre identité.</string>
+</resources>

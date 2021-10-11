@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/blanc"
+        android:layout_height="370dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="224dp"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="AUTHENTIFICATION"
+            android:textColor="#2133a0"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:text="@string/text_authantification"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:layout_marginLeft="27dp"
+            />
+
+        <ImageButton
+            android:id="@+id/continuer"
+            android:layout_width="293dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="220dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonc"
+             />
+
+        <ImageButton
+            android:id="@+id/annuler"
+            android:layout_width="293dp"
+            android:layout_height="53dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/buttonann" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/buttom_bar"
+        android:layout_height="30dp">
+
+    </RelativeLayout>
+</LinearLayout>
+

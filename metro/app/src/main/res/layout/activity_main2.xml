@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/first_page"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/forme">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:id="@+id/calendar"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/calendar"
+                 />
+
+            <TextView
+                android:id="@+id/calendar_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Horaires"
+                android:textColor="#CD000000"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp">
+
+            <ImageButton
+                android:id="@+id/station"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/station"
+                 />
+
+            <TextView
+                android:id="@+id/station_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Satations"
+                android:textColor="#CD000000"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="50dp">
+
+            <ImageButton
+                android:id="@+id/plan"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+
+                android:background="@drawable/plan"
+                />
+
+            <TextView
+                android:id="@+id/plan_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="50dp"
+                android:text="Plans"
+                android:textColor="#CD000000"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="52dp">
+
+            <ImageButton
+                android:id="@+id/titres"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+               android:layout_marginLeft="2dp"
+                android:background="@drawable/ticket"
+                 />
+
+            <TextView
+                android:id="@+id/ticket_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="50dp"
+                android:text="Titres"
+                android:textColor="#CD000000"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
