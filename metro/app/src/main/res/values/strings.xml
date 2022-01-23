@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OTRAM</string>
+    <string name="app_name">AUTHENTIS</string>
 
     <string name="titres_transport">Titres de transport</string>
     <string name="titre_classic">CLASSIC</string>
@@ -19,4 +19,110 @@
 
 
     <string name="text_authantification">Afin de valider votre inscription, nous avons besoin de vérifier votre identité.</string>
+
+
+    <string name="input_passport_number">Numéro identification national</string>
+    <string name="input_expiration_date">Date expiration</string>
+    <string name="input_date_of_birth">Date de naissance</string>
+
+    <string name="info_loading">Scan en cours</string>
+    <string name="info_scan_passport">Veuillez remplir ses champs et placer votre téléphone au-dessus de votre carte. Les informations suivantes sont nécessaires pour décoder les données cryptées de la carte..</string>
+    <string name="error_input">Veuillez fournir des détails pour lire la carte</string>
+    <string name="error_read">Échec de la lecture de la carte</string>
+
+    <string name="result_first_name">Prénom</string>
+    <string name="result_last_name">Nom</string>
+    <string name="result_gender">Sexe</string>
+    <string name="result_state">Pays</string>
+    <string name="result_nationality">Nationalité</string>
+    <string name="result_passive_auth">Passive Authentication</string>
+    <string name="result_chip_auth">Chip Authentication</string>
+
+    <string name="pass">Pass</string>
+    <string name="failed">Failed</string>
+
+    // Back button
+    <string name="Back">Retour</string>
+
+    // Main activity
+    <string name="text_Main">Authentis est une application d’authentification en temps réel de personne avec ses papiers d’identité.</string>
+    <string name="text_button_main">COMMENCER</string>
+
+    // LOGIN Activity
+    <string name="Default_mail">adresse@mail.com</string>
+    <string name="Default_password">********</string>
+    <string name="Souvenir">Se souvenir de moi</string>
+    <string name="ForgetPassword">Mot de passe oublié?</string>
+    <string name="ForgetPassword1">Récupérez-le ici.</string>
+    <string name="Signup">Vous n’avez pas de compte?</string>
+    <string name="Signup1">Inscrivez-vous ici.</string>
+    <string name="text_button_login">CONNEXION</string>
+
+
+    //Confirm Email Activity
+    <string name="text1_ConfirmEmail">Salut! Veuillez vérifier votre e-mail et commencer à utiliser AUTHENTIS.</string>
+    <string name="text2_ConfirmEmail">Questions? Ecrivez-nous sur:</string>
+    <string name="text3_ConfirmEmail">contact@3s-pay.com</string>
+    <string name="text_button_confirmEmail">SUIVANT</string>
+
+    // Choix ID Activity
+    <string name="title_select_document">Format Document</string>
+    <string name="text_select_document">Sélectionnez la pièce d’identité que vous souhaitez pour vous authentifier.</string>
+    <string name="text_button_ID">SUIVANT</string>
+
+    // Settings Activity
+    <string name="title_reglages">Réglages</string>
+    <string name="account">Mon compte</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Langues">Langues</string>
+    <string name="FAQ">FAQ</string>
+    <string name="ContactUS">Nous contacter</string>
+    <string name="AboutUs">A Propos De Nous</string>
+    <string name="Logout">Se déconnecter</string>
+
+    // Scan MRZ Activity
+    <string name="title_scanmrz">Scan code MRZ</string>
+    <string name="text_scanmrz">Placez le verso de votre carte à l’intérieur du carré.</string>
+
+    // sortir de l'pplication
+    <string name="Sortir">Voulez vous vraiment sortir de l’application ?</string>
+    <string name="Sortir_confirmer">CONFIRMER</string>
+    <string name="Sortir_annuler">ANNULER</string>
+
+    <string name="permission_title">Permission Required</string>
+    <string name="permission_description">We need your permission to access camera in order to scan Id Card / Passport.</string>
+    <string name="button_ok">OK</string>
+
+    <string name="selection_pieceID">Vous devez sélectionner la pièce d’identité souhaitée pour vous authentifier</string>
+
+    // LOGIN Activity
+
+    <string name="ForgetPassword_1">Récupérez-le ici.</string>
+
+
+    // Scan NFC Activity
+    <string name="PassDOc">Faites passer le Document sur le lecteur NFC de votre téléphone</string>
+
+    // result Activity
+    <string name="result_text1">Validité</string>
+    <string name="result_text2">Resultat  Vérification</string>
+    <string name="result_text3">Informations Personnelles</string>
+    <string name="result_text4">Nom complet</string>
+    <string name="result_text5">Prénom</string>
+    <string name="result_text6">Nom</string>
+    <string name="result_text7">Sex</string>
+    <string name="result_text8">Nationalité</string>
+    <string name="result_text9">Date de naissance</string>
+    <string name="result_text10">Informations sur le Document</string>
+    <string name="result_text11">Numéro de Document</string>
+    <string name="result_text12">Pays Emetteur</string>
+    <string name="result_text13">Lieu de Naissance</string>
+    <string name="result_text14">Date d’Expiration</string>
+    <string name="result_text15">Signature</string>
+    <string name="result_text16">Groupe Sanguin</string>
+
+    <string name="AllerteID">Vous devez sélectionner la pièce d’identité souhaitée pour vous authentifier</string>
+
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+
 </resources>

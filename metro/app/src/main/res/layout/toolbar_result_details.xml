@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:gravity="center_vertical">
+    <ImageView
+        android:id="@+id/iconback"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:onClick="Clickback"
+        android:src="@drawable/iconback"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/avenir_medium"
+        android:text="@string/Back"
+        android:onClick="Clickback"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32sp"
+        android:src="@drawable/iconexportgreen"
+        android:onClick="ClickMenu"
+        android:scaleX="1.4"
+        android:scaleY="1.4"
+        />
+
+</LinearLayout>

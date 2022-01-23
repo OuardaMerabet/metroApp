@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="Default_text_value">15dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Layout-->
+    <dimen name="margin_layout_TOP">20dp</dimen>
+    <dimen name="margin_layout_BOTTOM">10dp</dimen>
+    <dimen name="layout_height_mrz">300dp</dimen>
+
+    <!-- Image_size-->
+    <dimen name="Image_size_height_SkullTrack">230dp</dimen>
+    <dimen name="Image_size_height_iconverification">200dp</dimen>
+    <dimen name="Image_size_width_iconverification">300dp</dimen>
+    <dimen name="Image_size_height_logo">140dp</dimen>
+    <dimen name="Image_size_width_logo">170dp</dimen>
+    <dimen name="Image_size_height_button">100dp</dimen>
+    <dimen name="Image_size_height_button_bar">15dp</dimen>
+    <dimen name="Image_size_width_button_bar">250dp</dimen>
+    <dimen name="Field_size_height">55dp</dimen>
+    <dimen name="Field_size_height_Sesouvenir">65dp</dimen>
+    <dimen name="Icon_size">32dp</dimen>
+    <dimen name="choose_ID_layout_height">150dp</dimen>
+    <dimen name="Image_size_height_SmallAuthentis_logo">80dp</dimen>
+    <dimen name="Image_size_width_SmallAuthentis_logo">100dp</dimen>
+    <dimen name="Image_size_width_BigAuthentis_logo">300dp</dimen>
+    <dimen name="Image_size_height_BigAuthentis_logo">240dp</dimen>
+    <dimen name="Image_size_height_imageView2">250dp</dimen>
+    <dimen name="Photo_person_size">200dp</dimen>
+    <dimen name="layout_MRZ_size">380dp</dimen>
+
+    <!-- Margin-->
+    <dimen name="margin_TopBottom">10dp</dimen>
+    <dimen name="margin_LeftRight">20dp</dimen>
+    <dimen name="margin_LeftRight_checkbox">15dp</dimen>
+    <dimen name="margin_between_text">5dp</dimen>
+    <dimen name="margin_between_icon">10dp</dimen>
+    <dimen name="margin_TOP_confirmemail_buton">30dp</dimen>
+    <dimen name="margin_LeftRight_settingsIcon">40dp</dimen>
+
+    <!-- Padding-->
+    <dimen name="padding">12dp</dimen>
+    <dimen name="small_padding">1dp</dimen>
+    <dimen name="padding_start">20dp</dimen>
+
+    <!-- Text-->
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="backButton_text_size">18sp</dimen>
+    <dimen name="Soustitle_text_size">20sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+
+    <!-- Tool bar-->
+    <dimen name="Icon_size_back">25dp</dimen>
+
+    <!-- PopUP-->
+    <dimen name="cardCornerRadius">20dp</dimen>
+    <dimen name="cardElevation">20dp</dimen>
+    <dimen name="OKbutton_for_PopUP">180dp</dimen>
+
+</resources>

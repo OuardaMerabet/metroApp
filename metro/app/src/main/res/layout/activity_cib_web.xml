@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".authentis.UI.CibWebActivity">
+
+    <LinearLayout
+    android:id="@+id/cardInformations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cib02"
+    android:visibility="visible">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp">
+        <ImageButton
+            android:onClick="Clickback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="230dp"
+         android:fontFamily="@font/lato_bold"
+         android:text="Card Holder"
+         android:textColor="#5C5C5C"
+         android:textSize="22sp" />
+
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/field01"
+         android:textColor="#5C5C5C"
+         android:hint="Name Last Name"
+         android:fontFamily="@font/lato"
+         android:textSize="22sp"
+         android:paddingLeft="20dp"
+         android:inputType="textPersonName"
+         android:maxLines="1"
+         android:textColorHint="#9F9F9F" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+         android:fontFamily="@font/lato_bold"
+         android:text="Card Number"
+         android:textColor="#5C5C5C"
+         android:textSize="22sp" />
+
+     <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/field01"
+         android:hint="****  **** **** 1234"
+         android:maxLength="19"
+         android:textColor="#5C5C5C"
+         android:fontFamily="@font/lato"
+         android:textSize="22sp"
+         android:paddingLeft="20dp"
+         android:inputType="number"
+         android:maxLines="1"
+         android:textColorHint="#9F9F9F" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+         android:fontFamily="@font/lato_bold"
+         android:text="Expiration Date"
+         android:layout_weight="2"
+         android:textColor="#5C5C5C"
+         android:textSize="22sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="CVV"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textColor="#5C5C5C"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dateDBpicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:hint="JJ/MM/AA"
+            android:textColor="#5C5C5C"
+            android:paddingLeft="50dp"
+            android:textColorHint="@color/gris"
+            style="?android:spinnerStyle"
+            android:textSize="24sp"
+            android:background="@drawable/filed03"
+            android:onClick="openDateDBPicker"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fieldcvv"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="123"
+            android:textColorHint="@color/gris"
+            android:textSize="24sp"
+            android:textColor="#5C5C5C"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button01"
+        android:layout_gravity="center"
+        android:text="PURCHASE"
+        android:textSize="25sp"/>
+</LinearLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/codeVerification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/cib02"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+            <ImageButton
+                android:onClick="Clickback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verification"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/lato_bold"
+                android:textSize="28sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/verificationCodetext"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Verification Code"
+            android:textColor="#5C5C5C"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/textedit"
+            android:layout_below="@+id/verificationCodetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/field01"
+            android:hint="Enter Verification Code"
+            android:fontFamily="@font/lato"
+            android:textSize="22sp"
+            android:paddingLeft="20dp"
+            android:inputType="number"
+            android:textColor="#5C5C5C"
+            android:maxLines="1"
+            android:maxLength="6"
+            android:textColorHint="#9F9F9F" />
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/sendButton"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button01"
+            android:layout_gravity="bottom"
+            android:text="Send"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+    android:id="@+id/fin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cibweb01"
+    android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+            <ImageButton
+                android:onClick="Clickback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/lato_bold"
+                android:textSize="28sp"/>
+        </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Terminer"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button01"
+        android:layout_gravity="bottom"
+        android:text="Finish"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/QRCode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backk"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/blanc"
+            android:layout_height="370dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="224dp"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="QR CODE READY"
+                android:textColor="#2133a0"
+                android:textSize="19sp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/qrcode"
+                android:layout_below="@id/textView"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

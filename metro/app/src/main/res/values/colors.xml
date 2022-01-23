@@ -10,4 +10,14 @@
     <color name="gris">#A9A9A9</color>
     <color name="transparent">#00000000</color>
     <color name="titres">#757575</color>
+
+    // home page
+    <color name="home_textcolor">#ffffff</color>
+    <color name="green">#28d8a1</color>
+    <color name="orange">#FF9800</color>
+    <color name="textcolor">#E1DFDF</color>
+    <color name="menutextcolor">#636363</color>
+
+    // confirm email
+    <color name="confirm_emailtext">#727d8c</color>
 </resources>
